@@ -68,9 +68,11 @@ body {
   font-size: 2.5rem;
 }
 
-.bio .bio_text {
+.bio .bio_text,
+.bio .fact_text {
   width: 40vw;
   margin: 5%;
+  text-align: start;
 }
 
 .project-card {
@@ -113,5 +115,49 @@ body {
   padding: 3%;
   font-size: 1rem;
   color: #F5F3E7;
+}
+
+.fact_button,
+.project_button {
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(11.5px);
+  border-radius: 30px;
+  padding: 3%;
+  font-size: 1rem;
+  color: #F5F3E7;
+  border: none;
+  margin-top: 2vh;
+}
+
+.fact_heading {
+  color: #F5F3E7;
+  font-size: 1.3rem;
+}
+
+.facts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid #1B4D60;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 3%;
+  color: #F5F3E7;
+  background-color: #1B4D60;
+  margin-top: 5vh;
 }
 /*# sourceMappingURL=index.css.map */
