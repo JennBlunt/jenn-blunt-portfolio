@@ -12,7 +12,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #F5F3E7;
+  background-color: white;
 }
 
 .nav {
@@ -149,5 +149,21 @@ body {
     padding: 3%;
     font-size: 1rem;
     color: #F5F3E7;
+  }
+}
+
+.education {
+  display: flex;
+  border-radius: 30px;
+  background-color: #578372;
+  margin: 5vw;
+
+  .edu_card {
+    background-color: #F5F3E7;
+    margin: 3vw;
+    border-radius: 30px;
+    padding: 3%;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
   }
 }
