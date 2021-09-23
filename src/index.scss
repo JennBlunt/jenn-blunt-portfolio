@@ -52,11 +52,14 @@ body {
 .bio {
   border-radius: 20px;
   margin: 5% 5% 0 5%;
-  height: 70vh;
+  height: 80vh;
   display: flex;
-  background-color: #578372;
+  background-color: #1B4D60;
   box-shadow: 0 8px 32px 0 rgba(27, 76, 96, .57);
-
+  background-image: url(../public/pexels-anni-roenkae-2457278.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   img {
     height: 50vh;
@@ -113,7 +116,7 @@ body {
   padding: 3%;
   color: #F5F3E7;
   background-color: #1B4D60;
-  margin-top: 4vh;
+  margin-top: 5vh;
   text-align: center;
 }
 
