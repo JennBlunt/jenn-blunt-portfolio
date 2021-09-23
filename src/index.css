@@ -167,6 +167,12 @@ body {
   color: #F5F3E7;
 }
 
+.project-card .project_tags {
+  color: #578372;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
 .education {
   display: -webkit-box;
   display: -ms-flexbox;
